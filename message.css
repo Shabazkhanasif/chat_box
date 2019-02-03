@@ -1,0 +1,31 @@
+body{
+	background-color: skyblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 80vh;
+}
+.container{
+	text-align: center;
+	background-color: #F2D4F9;
+	flex:0 0 80%;
+	border-radius: 9px;
+	padding: 1rem;
+	text-transform: capitalize;
+}#textbox{
+	font-size:1.3em;
+	border-color: skyblue;
+	border-radius: 3px;
+	outline: none;
+}
+#enterbtn{
+	background-color:blue;
+	color: white;
+	border-radius: 6px;
+	text-transform: capitalize;
+	outline:none;
+	padding:5px;
+}
+#msgout{
+	font-style: italic;
+}
